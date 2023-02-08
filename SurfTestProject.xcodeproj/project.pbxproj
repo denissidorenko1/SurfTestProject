@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84E5711CAD595C4A62518788 /* Pods_SurfTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DE517DFFA4E226EC55B177 /* Pods_SurfTestProject.framework */; };
 		92A0ABEF298C396200DEDF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0ABEE298C396200DEDF0F /* AppDelegate.swift */; };
 		92A0ABF1298C396200DEDF0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0ABF0298C396200DEDF0F /* SceneDelegate.swift */; };
-		92A0ABF3298C396200DEDF0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0ABF2298C396200DEDF0F /* ViewController.swift */; };
-		92A0ABF6298C396200DEDF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A0ABF4298C396200DEDF0F /* Main.storyboard */; };
+		92A0ABF3298C396200DEDF0F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0ABF2298C396200DEDF0F /* MainViewController.swift */; };
 		92A0ABF8298C396300DEDF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A0ABF7298C396300DEDF0F /* Assets.xcassets */; };
 		92A0ABFB298C396300DEDF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A0ABF9298C396300DEDF0F /* LaunchScreen.storyboard */; };
+		92A0AC03298C3E6E00DEDF0F /* BranchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0AC02298C3E6E00DEDF0F /* BranchButton.swift */; };
+		92A0AC07298D39AD00DEDF0F /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0AC06298D39AD00DEDF0F /* GroupView.swift */; };
+		92A0AC09298D43E000DEDF0F /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0AC08298D43E000DEDF0F /* FooterView.swift */; };
+		92A0AC0B298E9C2E00DEDF0F /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0AC0A298E9C2E00DEDF0F /* ButtonCollectionViewCell.swift */; };
+		92A0AC0D29911B3000DEDF0F /* InternshipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0AC0C29911B3000DEDF0F /* InternshipData.swift */; };
+		92A0AC132991386000DEDF0F /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0AC122991386000DEDF0F /* CollectionDataSource.swift */; };
+		92A0AC17299290E000DEDF0F /* TwoLineButtonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0AC16299290E000DEDF0F /* TwoLineButtonRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51118D054373A4443E020CB8 /* Pods-SurfTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurfTestProject.release.xcconfig"; path = "Target Support Files/Pods-SurfTestProject/Pods-SurfTestProject.release.xcconfig"; sourceTree = "<group>"; };
 		92A0ABEB298C396200DEDF0F /* SurfTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A0ABEE298C396200DEDF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A0ABF0298C396200DEDF0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92A0ABF2298C396200DEDF0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92A0ABF5298C396200DEDF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A0ABF2298C396200DEDF0F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		92A0ABF7298C396300DEDF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A0ABFA298C396300DEDF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A0ABFC298C396300DEDF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A0AC02298C3E6E00DEDF0F /* BranchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchButton.swift; sourceTree = "<group>"; };
+		92A0AC06298D39AD00DEDF0F /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		92A0AC08298D43E000DEDF0F /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		92A0AC0A298E9C2E00DEDF0F /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		92A0AC0C29911B3000DEDF0F /* InternshipData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipData.swift; sourceTree = "<group>"; };
+		92A0AC122991386000DEDF0F /* CollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDataSource.swift; sourceTree = "<group>"; };
+		92A0AC16299290E000DEDF0F /* TwoLineButtonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLineButtonRowView.swift; sourceTree = "<group>"; };
+		A9DE517DFFA4E226EC55B177 /* Pods_SurfTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurfTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56B4A106A7AA4C29CD1FC29 /* Pods-SurfTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurfTestProject.debug.xcconfig"; path = "Target Support Files/Pods-SurfTestProject/Pods-SurfTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E5711CAD595C4A62518788 /* Pods_SurfTestProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		153B797E3C12DC5FD67CA10F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DE517DFFA4E226EC55B177 /* Pods_SurfTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92A0ABE2298C396200DEDF0F = {
 			isa = PBXGroup;
 			children = (
 				92A0ABED298C396200DEDF0F /* SurfTestProject */,
 				92A0ABEC298C396200DEDF0F /* Products */,
+				9FD66AA9451F671CB8E5CFF4 /* Pods */,
+				153B797E3C12DC5FD67CA10F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,62 @@
 		92A0ABED298C396200DEDF0F /* SurfTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				92A0ABEE298C396200DEDF0F /* AppDelegate.swift */,
-				92A0ABF0298C396200DEDF0F /* SceneDelegate.swift */,
-				92A0ABF2298C396200DEDF0F /* ViewController.swift */,
-				92A0ABF4298C396200DEDF0F /* Main.storyboard */,
+				92A0AC112991208F00DEDF0F /* Controller */,
+				92A0AC1029911E6400DEDF0F /* View */,
+				92A0AC0F29911E0F00DEDF0F /* Application */,
+				92A0AC0E29911E0600DEDF0F /* Model */,
 				92A0ABF7298C396300DEDF0F /* Assets.xcassets */,
 				92A0ABF9298C396300DEDF0F /* LaunchScreen.storyboard */,
 				92A0ABFC298C396300DEDF0F /* Info.plist */,
 			);
 			path = SurfTestProject;
+			sourceTree = "<group>";
+		};
+		92A0AC0E29911E0600DEDF0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92A0AC0C29911B3000DEDF0F /* InternshipData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92A0AC0F29911E0F00DEDF0F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				92A0ABF0298C396200DEDF0F /* SceneDelegate.swift */,
+				92A0ABEE298C396200DEDF0F /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		92A0AC1029911E6400DEDF0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92A0AC08298D43E000DEDF0F /* FooterView.swift */,
+				92A0AC06298D39AD00DEDF0F /* GroupView.swift */,
+				92A0AC0A298E9C2E00DEDF0F /* ButtonCollectionViewCell.swift */,
+				92A0AC02298C3E6E00DEDF0F /* BranchButton.swift */,
+				92A0AC16299290E000DEDF0F /* TwoLineButtonRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92A0AC112991208F00DEDF0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92A0ABF2298C396200DEDF0F /* MainViewController.swift */,
+				92A0AC122991386000DEDF0F /* CollectionDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FD66AA9451F671CB8E5CFF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E56B4A106A7AA4C29CD1FC29 /* Pods-SurfTestProject.debug.xcconfig */,
+				51118D054373A4443E020CB8 /* Pods-SurfTestProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92A0ABFF298C396300DEDF0F /* Build configuration list for PBXNativeTarget "SurfTestProject" */;
 			buildPhases = (
+				DD1A5207E932B95771A83999 /* [CP] Check Pods Manifest.lock */,
 				92A0ABE7298C396200DEDF0F /* Sources */,
 				92A0ABE8298C396200DEDF0F /* Frameworks */,
 				92A0ABE9298C396200DEDF0F /* Resources */,
+				9280D5212994363E005CFC4A /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -127,34 +203,75 @@
 			files = (
 				92A0ABFB298C396300DEDF0F /* LaunchScreen.storyboard in Resources */,
 				92A0ABF8298C396300DEDF0F /* Assets.xcassets in Resources */,
-				92A0ABF6298C396200DEDF0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9280D5212994363E005CFC4A /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n#export PATH=\"${/Desktop/Xcode Projects/SurfTestProject/Pods}/SwiftLint/swiftlint\"\nif which swiftlint; then\n    swiftlint --fix | swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+		DD1A5207E932B95771A83999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SurfTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92A0ABE7298C396200DEDF0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A0ABF3298C396200DEDF0F /* ViewController.swift in Sources */,
+				92A0ABF3298C396200DEDF0F /* MainViewController.swift in Sources */,
 				92A0ABEF298C396200DEDF0F /* AppDelegate.swift in Sources */,
 				92A0ABF1298C396200DEDF0F /* SceneDelegate.swift in Sources */,
+				92A0AC0B298E9C2E00DEDF0F /* ButtonCollectionViewCell.swift in Sources */,
+				92A0AC03298C3E6E00DEDF0F /* BranchButton.swift in Sources */,
+				92A0AC0D29911B3000DEDF0F /* InternshipData.swift in Sources */,
+				92A0AC09298D43E000DEDF0F /* FooterView.swift in Sources */,
+				92A0AC132991386000DEDF0F /* CollectionDataSource.swift in Sources */,
+				92A0AC17299290E000DEDF0F /* TwoLineButtonRowView.swift in Sources */,
+				92A0AC07298D39AD00DEDF0F /* GroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92A0ABF4298C396200DEDF0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92A0ABF5298C396200DEDF0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92A0ABF9298C396300DEDF0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +401,7 @@
 		};
 		92A0AC00298C396300DEDF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56B4A106A7AA4C29CD1FC29 /* Pods-SurfTestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +412,7 @@
 				INFOPLIST_FILE = SurfTestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +424,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		92A0AC01298C396300DEDF0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51118D054373A4443E020CB8 /* Pods-SurfTestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +441,7 @@
 				INFOPLIST_FILE = SurfTestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +453,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
