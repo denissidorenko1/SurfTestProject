@@ -32,9 +32,8 @@
 
 ![](https://media1.giphy.com/media/2Ob360YZwYePCIoIeM/giphy.gif?cid=790b761184595afb87792ae5fa01218b4282d76d3ea1e13a&rid=giphy.gif&ct=g)
 
-Скриншот сделан на симуляторе iPhone 13 Pro Max
+[Скриншот](https://i.ibb.co/JrbpRb2/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2023-02-10-at-15-38-56.png) сделан на симуляторе iPhone 13 Pro Max
 
-<img src="https://i.ibb.co/JrbpRb2/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2023-02-10-at-15-38-56.png" width="222">
 
 
 ## Фидбек
